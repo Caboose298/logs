@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "MC.V.MC",
+      "name" : "Mechanical VS Magic",
+      "version" : "1 t",
+      "location" : "mechanical-vs-magic.json",
+      "priority" : 1
+    }
+  ]
+}
