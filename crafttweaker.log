@@ -1,45 +1,132 @@
-[21:33:36.395][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
-[21:33:36.402][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
-[21:33:36.571][INFO]: Successfully identified and loaded plugin contenttweaker:core
-[21:33:36.613][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[21:33:36.617][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
-[21:33:36.622][INFO]: Successfully identified and loaded plugin immersiveengineering:ct_module
-[21:33:38.275][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[21:33:38.277][INFO]: - 'contenttweaker' at version '1.0.0+13'
-[21:33:38.277][INFO]: - 'crafttweaker' at version '9.1.189'
-[21:33:38.277][INFO]: - 'exnihilosequentia' at version '1.18.2-20220818-010806'
-[21:33:38.277][INFO]: - 'immersiveengineering' at version '1.18.2-8.2.2-154'
-[21:33:38.277][INFO]: - 'mekanism' at version '10.2.5'
-[21:33:38.277][INFO]: - 'mysticalagriculture' at version '5.1.1'
-[21:33:39.035][INFO]: Started loading scripts for loader 'contenttweaker'
-[21:33:39.467][INFO]: Compiling and executing scripts
-[21:33:39.569][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
-[21:33:39.662][INFO]: Execution for loader 'contenttweaker' completed successfully
-[21:33:51.276][INFO]: Started loading scripts for loader 'mekanismcontent'
-[21:33:51.298][INFO]: Compiling and executing scripts
-[21:33:51.727][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[21:33:51.738][INFO]: Execution for loader 'mekanismcontent' completed successfully
-[21:33:51.739][INFO]: Registering 0 custom gases.
-[21:33:51.744][INFO]: Registering 0 custom infuse types.
-[21:33:51.753][INFO]: Registering 0 custom pigments.
-[21:33:51.757][INFO]: Registering 0 custom robit skins.
-[21:33:51.762][INFO]: Registering 0 custom slurries.
-[21:33:57.926][INFO]: Started loading scripts for loader 'initialize'
-[21:33:57.960][INFO]: Compiling and executing scripts
-[21:33:57.961][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[21:33:57.975][INFO]: Execution for loader 'initialize' completed successfully
-[21:35:13.381][WARN]: Two subcommands with the same ID soundevents found for dump: this it not a critical error
-[21:35:13.382][WARN]: Two subcommands with the same ID materials found for dump: this it not a critical error
-[21:35:21.223][INFO]: Started loading scripts for loader 'tags'
-[21:35:21.237][INFO]: Compiling and executing scripts
-[21:35:21.240][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[21:35:21.247][INFO]: Execution for loader 'tags' completed successfully
-[21:35:27.128][INFO]: Started loading scripts for loader 'crafttweaker'
-[21:35:27.141][INFO]: Compiling and executing scripts
-[21:35:27.238][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[21:35:27.238][INFO]: Loading file 'examples\remove.zs' with priority 0
-[21:35:27.239][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: examples\remove.zs:3:6: ; expected
+[07:58:29.390][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
+[07:58:29.397][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
+[07:58:29.596][INFO]: Successfully identified and loaded plugin contenttweaker:core
+[07:58:29.645][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[07:58:29.649][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[07:58:29.653][INFO]: Successfully identified and loaded plugin immersiveengineering:ct_module
+[07:58:31.424][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[07:58:31.426][INFO]: - 'contenttweaker' at version '1.0.0+13'
+[07:58:31.426][INFO]: - 'crafttweaker' at version '9.1.189'
+[07:58:31.426][INFO]: - 'exnihilosequentia' at version '1.18.2-20220818-010806'
+[07:58:31.426][INFO]: - 'immersiveengineering' at version '1.18.2-8.2.2-154'
+[07:58:31.426][INFO]: - 'mekanism' at version '10.2.5'
+[07:58:31.426][INFO]: - 'mysticalagriculture' at version '5.1.1'
+[07:58:32.157][INFO]: Started loading scripts for loader 'contenttweaker'
+[07:58:32.649][INFO]: Compiling and executing scripts
+[07:58:32.747][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
+[07:58:32.859][INFO]: Execution for loader 'contenttweaker' completed successfully
+[07:58:43.613][INFO]: Started loading scripts for loader 'mekanismcontent'
+[07:58:43.633][INFO]: Compiling and executing scripts
+[07:58:44.058][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[07:58:44.069][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[07:58:44.070][INFO]: Registering 0 custom gases.
+[07:58:44.075][INFO]: Registering 0 custom infuse types.
+[07:58:44.085][INFO]: Registering 0 custom pigments.
+[07:58:44.089][INFO]: Registering 0 custom robit skins.
+[07:58:44.094][INFO]: Registering 0 custom slurries.
+[07:58:50.904][INFO]: Started loading scripts for loader 'initialize'
+[07:58:50.935][INFO]: Compiling and executing scripts
+[07:58:50.936][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[07:58:50.949][INFO]: Execution for loader 'initialize' completed successfully
+[08:03:35.537][WARN]: Two subcommands with the same ID soundevents found for dump: this it not a critical error
+[08:03:35.538][WARN]: Two subcommands with the same ID materials found for dump: this it not a critical error
+[08:03:43.849][INFO]: Started loading scripts for loader 'tags'
+[08:03:43.864][INFO]: Compiling and executing scripts
+[08:03:43.867][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:03:43.874][INFO]: Execution for loader 'tags' completed successfully
+[08:03:49.639][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:03:49.652][INFO]: Compiling and executing scripts
+[08:03:49.788][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:03:49.788][INFO]: Loading file 'remove.zs' with priority 0
+[08:03:49.794][ERROR]: Error while running scripts:
+org.openzen.zenscript.lexer.ParseException: remove.zs:4:105: ] or , expected
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:467)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:46)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2082)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1909)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91200_(Minecraft.java:1873)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101744_(WorldSelectionList.java:473)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101704_(WorldSelectionList.java:330)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_6375_(WorldSelectionList.java:257)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractSelectionList.m_6375_(AbstractSelectionList.java:323)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
+	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
+	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
+	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1071)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:665)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.80/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
+[08:03:49.795][ERROR]: Error while running scripts:
+org.openzen.zenscript.lexer.ParseException: remove.zs:5:0: ; expected
 	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
 	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
 	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
@@ -95,21 +182,103 @@ org.openzen.zenscript.lexer.ParseException: examples\remove.zs:3:6: ; expected
 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
-[21:35:27.241][ERROR]: Scripts are invalid!
-[21:35:27.241][INFO]: Execution for loader 'crafttweaker' completed successfully
-[21:35:27.243][INFO]: This reload was made possible by Peregrinus11 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[21:40:03.997][INFO]: Started loading scripts for loader 'tags'
-[21:40:03.997][INFO]: Undoing previous actions
-[21:40:04.014][INFO]: Compiling and executing scripts
-[21:40:04.017][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[21:40:04.025][INFO]: Execution for loader 'tags' completed successfully
-[21:40:09.305][INFO]: Started loading scripts for loader 'crafttweaker'
-[21:40:09.305][INFO]: Undoing previous actions
-[21:40:09.315][INFO]: Compiling and executing scripts
-[21:40:09.402][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[21:40:09.402][INFO]: Loading file 'examples\remove.zs' with priority 0
-[21:40:09.405][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: examples\remove.zs:3:6: ; expected
+[08:03:49.797][ERROR]: Scripts are invalid!
+[08:03:49.797][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:03:49.799][INFO]: This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:04:38.186][INFO]: Started loading scripts for loader 'tags'
+[08:04:38.186][INFO]: Undoing previous actions
+[08:04:38.199][INFO]: Compiling and executing scripts
+[08:04:38.202][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:04:38.208][INFO]: Execution for loader 'tags' completed successfully
+[08:04:43.564][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:04:43.564][INFO]: Undoing previous actions
+[08:04:43.575][INFO]: Compiling and executing scripts
+[08:04:43.655][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:04:43.656][INFO]: Loading file 'remove.zs' with priority 0
+[08:04:43.656][ERROR]: Error while running scripts:
+org.openzen.zenscript.lexer.ParseException: remove.zs:4:105: ] or , expected
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:467)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:46)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1340)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
+	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.commands.Commands.m_82117_(Commands.java:234)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9957_(ServerGamePacketListenerImpl.java:1150)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_143628_(ServerGamePacketListenerImpl.java:1129)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerGamePacketListenerImpl.java:1115)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:30)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:7)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[08:04:43.657][ERROR]: Error while running scripts:
+org.openzen.zenscript.lexer.ParseException: remove.zs:5:0: ; expected
 	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
 	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
 	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
@@ -160,396 +329,110 @@ org.openzen.zenscript.lexer.ParseException: examples\remove.zs:3:6: ; expected
 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[21:40:09.405][ERROR]: Scripts are invalid!
-[21:40:09.405][INFO]: Execution for loader 'crafttweaker' completed successfully
-[21:40:09.406][INFO]: This reload was made possible by Lion01 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[22:22:45.017][INFO]: Started loading scripts for loader 'tags'
-[22:22:45.018][INFO]: Undoing previous actions
-[22:22:45.030][INFO]: Compiling and executing scripts
-[22:22:45.032][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[22:22:45.038][INFO]: Execution for loader 'tags' completed successfully
-[22:22:50.186][INFO]: Started loading scripts for loader 'crafttweaker'
-[22:22:50.186][INFO]: Undoing previous actions
-[22:22:50.197][INFO]: Compiling and executing scripts
-[22:22:50.274][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[22:22:50.275][INFO]: Loading file 'remove.zs' with priority 0
-[22:22:50.275][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: remove.zs:3:6: ; expected
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1340)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.commands.Commands.m_82117_(Commands.java:234)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9957_(ServerGamePacketListenerImpl.java:1150)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_143628_(ServerGamePacketListenerImpl.java:1129)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerGamePacketListenerImpl.java:1115)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:30)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:7)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[22:22:50.276][ERROR]: Scripts are invalid!
-[22:22:50.276][INFO]: Execution for loader 'crafttweaker' completed successfully
-[22:22:50.276][INFO]: This reload was made possible by WaterMoon and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[22:24:27.855][INFO]: Started loading scripts for loader 'tags'
-[22:24:27.855][INFO]: Undoing previous actions
-[22:24:27.866][INFO]: Compiling and executing scripts
-[22:24:27.868][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[22:24:27.873][INFO]: Execution for loader 'tags' completed successfully
-[22:24:32.994][INFO]: Started loading scripts for loader 'crafttweaker'
-[22:24:32.994][INFO]: Undoing previous actions
-[22:24:33.007][INFO]: Compiling and executing scripts
-[22:24:33.090][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[22:24:33.090][INFO]: Loading file 'remove.zs' with priority 0
-[22:24:33.090][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: remove.zs:3:6: ; expected
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1340)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.commands.Commands.m_82117_(Commands.java:234)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9957_(ServerGamePacketListenerImpl.java:1150)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_143628_(ServerGamePacketListenerImpl.java:1129)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerGamePacketListenerImpl.java:1115)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:30)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:7)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[22:24:33.091][ERROR]: Scripts are invalid!
-[22:24:33.092][INFO]: Execution for loader 'crafttweaker' completed successfully
-[22:24:33.092][INFO]: This reload was made possible by Angelo A and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[22:25:43.748][INFO]: Started loading scripts for loader 'tags'
-[22:25:43.748][INFO]: Undoing previous actions
-[22:25:43.759][INFO]: Compiling and executing scripts
-[22:25:43.761][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[22:25:43.767][INFO]: Execution for loader 'tags' completed successfully
-[22:25:48.970][INFO]: Started loading scripts for loader 'crafttweaker'
-[22:25:48.970][INFO]: Undoing previous actions
-[22:25:48.981][INFO]: Compiling and executing scripts
-[22:25:49.106][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[22:25:49.106][INFO]: Loading file 'remove.zs' with priority 0
-[22:25:49.106][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: remove.zs:3:6: ; expected
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1340)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.commands.Commands.m_82117_(Commands.java:234)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9957_(ServerGamePacketListenerImpl.java:1150)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_143628_(ServerGamePacketListenerImpl.java:1129)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerGamePacketListenerImpl.java:1115)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:30)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:7)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[22:25:49.107][ERROR]: Scripts are invalid!
-[22:25:49.107][INFO]: Execution for loader 'crafttweaker' completed successfully
-[22:25:49.108][INFO]: This reload was made possible by Lion01 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[22:26:46.047][INFO]: Started loading scripts for loader 'tags'
-[22:26:46.047][INFO]: Undoing previous actions
-[22:26:46.058][INFO]: Compiling and executing scripts
-[22:26:46.059][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[22:26:46.065][INFO]: Execution for loader 'tags' completed successfully
-[22:26:51.131][INFO]: Started loading scripts for loader 'crafttweaker'
-[22:26:51.131][INFO]: Undoing previous actions
-[22:26:51.141][INFO]: Compiling and executing scripts
-[22:26:51.223][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[22:26:51.223][INFO]: Loading file 'remove.zs' with priority 0
-[22:26:51.223][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: remove.zs:3:6: ; expected
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1340)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.commands.Commands.m_82117_(Commands.java:234)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9957_(ServerGamePacketListenerImpl.java:1150)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_143628_(ServerGamePacketListenerImpl.java:1129)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerGamePacketListenerImpl.java:1115)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:30)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:7)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[22:26:51.223][ERROR]: Scripts are invalid!
-[22:26:51.223][INFO]: Execution for loader 'crafttweaker' completed successfully
-[22:26:51.224][INFO]: This reload was made possible by Robijnvogel and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[22:28:19.829][INFO]: Started loading scripts for loader 'tags'
-[22:28:19.829][INFO]: Undoing previous actions
-[22:28:19.842][INFO]: Compiling and executing scripts
-[22:28:19.844][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[22:28:19.855][INFO]: Execution for loader 'tags' completed successfully
-[22:28:25.144][INFO]: Started loading scripts for loader 'crafttweaker'
-[22:28:25.144][INFO]: Undoing previous actions
-[22:28:25.154][INFO]: Compiling and executing scripts
-[22:28:25.227][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[22:28:25.227][INFO]: Loading file 'remove.zs' with priority 0
-[22:28:25.227][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: remove.zs:3:6: ; expected
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1340)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.commands.Commands.m_82117_(Commands.java:234)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9957_(ServerGamePacketListenerImpl.java:1150)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_143628_(ServerGamePacketListenerImpl.java:1129)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerGamePacketListenerImpl.java:1115)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:30)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:7)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[22:28:25.228][ERROR]: Scripts are invalid!
-[22:28:25.228][INFO]: Execution for loader 'crafttweaker' completed successfully
-[22:28:25.228][INFO]: This reload was made possible by Barrier and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[22:30:41.834][INFO]: Started loading scripts for loader 'tags'
-[22:30:41.834][INFO]: Undoing previous actions
-[22:30:41.846][INFO]: Compiling and executing scripts
-[22:30:41.849][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[22:30:41.856][INFO]: Execution for loader 'tags' completed successfully
-[22:30:46.992][INFO]: Started loading scripts for loader 'crafttweaker'
-[22:30:46.992][INFO]: Undoing previous actions
-[22:30:47.001][INFO]: Compiling and executing scripts
-[22:30:47.060][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[22:30:47.060][INFO]: Loading file 'remove.zs' with priority 0
-[22:30:47.060][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: remove.zs:3:6: ; expected
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
-	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1340)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.commands.Commands.m_82117_(Commands.java:234)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9957_(ServerGamePacketListenerImpl.java:1150)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_143628_(ServerGamePacketListenerImpl.java:1129)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerGamePacketListenerImpl.java:1115)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:30)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:7)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
-	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[22:30:47.061][ERROR]: Scripts are invalid!
-[22:30:47.061][INFO]: Execution for loader 'crafttweaker' completed successfully
-[22:30:47.061][INFO]: This reload was made possible by DreamThorn and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:04:43.657][ERROR]: Scripts are invalid!
+[08:04:43.658][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:04:43.658][INFO]: This reload was made possible by Pongo Sapiens and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:06:11.476][INFO]: Started loading scripts for loader 'tags'
+[08:06:11.477][INFO]: Undoing previous actions
+[08:06:11.488][INFO]: Compiling and executing scripts
+[08:06:11.490][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:06:11.496][INFO]: Execution for loader 'tags' completed successfully
+[08:06:16.812][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:06:16.812][INFO]: Undoing previous actions
+[08:06:16.822][INFO]: Compiling and executing scripts
+[08:06:16.901][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:06:16.901][INFO]: Loading file 'help.zs' with priority 0
+[08:06:16.902][INFO]: Loading file 'remove.zs' with priority 0
+[08:06:16.909][ERROR]: help.zs:2:0: help.zs:2:0: No such member: addRecipe
+[08:06:16.909][ERROR]: Scripts are invalid!
+[08:06:16.910][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:06:16.910][INFO]: This reload was made possible by Quaternary and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:13:05.010][INFO]: Started loading scripts for loader 'tags'
+[08:13:05.011][INFO]: Undoing previous actions
+[08:13:05.022][INFO]: Compiling and executing scripts
+[08:13:05.024][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:13:05.031][INFO]: Execution for loader 'tags' completed successfully
+[08:13:10.361][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:13:10.361][INFO]: Undoing previous actions
+[08:13:10.372][INFO]: Compiling and executing scripts
+[08:13:10.446][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:13:10.446][INFO]: Loading file 'help.zs' with priority 0
+[08:13:10.446][INFO]: Loading file 'remove.zs' with priority 0
+[08:13:10.459][INFO]: Removing 'create:crushing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@bf7571ea'
+[08:13:10.459][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:13:10.460][INFO]: This reload was made possible by WaterMoon and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:24:43.774][INFO]: Started loading scripts for loader 'tags'
+[08:24:43.774][INFO]: Undoing previous actions
+[08:24:43.785][INFO]: Compiling and executing scripts
+[08:24:43.786][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:24:43.793][INFO]: Execution for loader 'tags' completed successfully
+[08:24:49.071][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:24:49.071][INFO]: Undoing previous actions
+[08:24:49.080][INFO]: Compiling and executing scripts
+[08:24:49.156][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:24:49.156][INFO]: Loading file 'help.zs' with priority 0
+[08:24:49.156][INFO]: Loading file 'remove.zs' with priority 0
+[08:24:49.158][ERROR]: help.zs:2:0: help.zs:2:0: No such member: addRecipe
+[08:24:49.158][ERROR]: Scripts are invalid!
+[08:24:49.158][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:24:49.159][INFO]: This reload was made possible by Luvely and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:26:23.501][INFO]: Started loading scripts for loader 'tags'
+[08:26:23.501][INFO]: Undoing previous actions
+[08:26:23.512][INFO]: Compiling and executing scripts
+[08:26:23.514][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:26:23.521][INFO]: Execution for loader 'tags' completed successfully
+[08:26:28.791][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:26:28.791][INFO]: Undoing previous actions
+[08:26:28.800][INFO]: Compiling and executing scripts
+[08:26:28.899][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:26:28.899][INFO]: Loading file 'help.zs' with priority 0
+[08:26:28.899][INFO]: Loading file 'remove.zs' with priority 0
+[08:26:28.900][ERROR]: help.zs:2:0: help.zs:2:0: No such member: addrecipe
+[08:26:28.900][ERROR]: Scripts are invalid!
+[08:26:28.900][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:26:28.901][INFO]: This reload was made possible by Ivy_ and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:29:05.617][INFO]: Started loading scripts for loader 'tags'
+[08:29:05.617][INFO]: Undoing previous actions
+[08:29:05.627][INFO]: Compiling and executing scripts
+[08:29:05.628][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:29:05.634][INFO]: Execution for loader 'tags' completed successfully
+[08:29:10.961][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:29:10.961][INFO]: Undoing previous actions
+[08:29:10.970][INFO]: Compiling and executing scripts
+[08:29:11.039][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:29:11.039][INFO]: Loading file 'help.zs' with priority 0
+[08:29:11.039][INFO]: Loading file 'remove.zs' with priority 0
+[08:29:11.040][ERROR]: help.zs:4:0: help.zs:4:0: No such member: addRecipe
+[08:29:11.040][ERROR]: Scripts are invalid!
+[08:29:11.040][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:29:11.041][INFO]: This reload was made possible by Lion01 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:29:37.450][INFO]: Started loading scripts for loader 'tags'
+[08:29:37.450][INFO]: Undoing previous actions
+[08:29:37.460][INFO]: Compiling and executing scripts
+[08:29:37.461][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:29:37.467][INFO]: Execution for loader 'tags' completed successfully
+[08:29:42.489][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:29:42.489][INFO]: Undoing previous actions
+[08:29:42.499][INFO]: Compiling and executing scripts
+[08:29:42.573][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:29:42.573][INFO]: Loading file 'help.zs' with priority 0
+[08:29:42.573][INFO]: Loading file 'remove.zs' with priority 0
+[08:29:42.574][ERROR]: help.zs:4:0: help.zs:4:0: No such member: addrecipe
+[08:29:42.574][ERROR]: Scripts are invalid!
+[08:29:42.574][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:29:42.575][INFO]: This reload was made possible by Zuniroa and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:30:04.550][INFO]: Started loading scripts for loader 'tags'
+[08:30:04.550][INFO]: Undoing previous actions
+[08:30:04.560][INFO]: Compiling and executing scripts
+[08:30:04.562][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:30:04.567][INFO]: Execution for loader 'tags' completed successfully
+[08:30:09.677][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:30:09.677][INFO]: Undoing previous actions
+[08:30:09.685][INFO]: Compiling and executing scripts
+[08:30:09.749][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:30:09.749][INFO]: Loading file 'help.zs' with priority 0
+[08:30:09.749][INFO]: Loading file 'remove.zs' with priority 0
+[08:30:09.750][ERROR]: help.zs:4:0: help.zs:4:0: No such member: addRecipe
+[08:30:09.751][ERROR]: Scripts are invalid!
+[08:30:09.751][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:30:09.751][INFO]: This reload was made possible by Lion01 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
