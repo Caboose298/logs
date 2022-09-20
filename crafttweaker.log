@@ -436,3 +436,68 @@ org.openzen.zenscript.lexer.ParseException: remove.zs:5:0: ; expected
 [08:30:09.751][ERROR]: Scripts are invalid!
 [08:30:09.751][INFO]: Execution for loader 'crafttweaker' completed successfully
 [08:30:09.751][INFO]: This reload was made possible by Lion01 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[08:35:10.399][INFO]: Started loading scripts for loader 'tags'
+[08:35:10.400][INFO]: Undoing previous actions
+[08:35:10.410][INFO]: Compiling and executing scripts
+[08:35:10.412][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[08:35:10.417][INFO]: Execution for loader 'tags' completed successfully
+[08:35:15.505][INFO]: Started loading scripts for loader 'crafttweaker'
+[08:35:15.505][INFO]: Undoing previous actions
+[08:35:15.516][INFO]: Compiling and executing scripts
+[08:35:15.582][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[08:35:15.583][INFO]: Loading file 'help.zs' with priority 0
+[08:35:15.587][INFO]: Loading file 'remove.zs' with priority 0
+[08:35:15.589][ERROR]: Error while compiling scripts: 
+org.openzen.zencode.shared.CompileException: help.zs:1:0: Could not find type mods.createtweaker.CrushingRecipe
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.loadImports(ParsedFile.java:337)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.compileCode(ParsedFile.java:303)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zenscript.parser.ParsedFile.compileSyntaxToSemantic(ParsedFile.java:126)
+	at TRANSFORMER/crafttweaker@9.1.189/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:132)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
+	at TRANSFORMER/crafttweaker@9.1.189/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1340)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
+	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.commands.Commands.m_82117_(Commands.java:234)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9957_(ServerGamePacketListenerImpl.java:1150)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_143628_(ServerGamePacketListenerImpl.java:1129)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerGamePacketListenerImpl.java:1115)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:30)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:7)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[08:35:15.590][ERROR]: help.zs:4:0: help.zs:4:0: No such member: addRecipe
+[08:35:15.590][ERROR]: Scripts are invalid!
+[08:35:15.590][INFO]: Execution for loader 'crafttweaker' completed successfully
+[08:35:15.591][INFO]: This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
